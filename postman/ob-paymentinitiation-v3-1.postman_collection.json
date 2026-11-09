@@ -1,0 +1,230 @@
+{
+  "info": {
+    "name": "ob-paymentinitiation-v3-1 Postman Collection",
+    "description": "Operational baseline generated from observed Kong Konnect configuration.\n\nOpenAPI version: 3.0.3",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "noauth"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://ob-pisp.svc.prod.aldermoor.example/obie/v3.1/pisp",
+      "type": "string",
+      "description": "Override with the base URL of the deployed Kong gateway."
+    }
+  ],
+  "item": [
+    {
+      "name": "ob-paymentinitiation-v3-1--postdomestic-payment-consents",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postdomestic-payment-consents\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/domestic-payment-consents",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "domestic-payment-consents"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ob-paymentinitiation-v3-1--postdomestic-payments",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postdomestic-payments\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/domestic-payments",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "domestic-payments"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ob-paymentinitiation-v3-1--postdomestic-scheduled-payment-consents",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postdomestic-scheduled-payment-consents\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/domestic-scheduled-payment-consents",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "domestic-scheduled-payment-consents"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ob-paymentinitiation-v3-1--postdomestic-scheduled-payments",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postdomestic-scheduled-payments\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/domestic-scheduled-payments",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "domestic-scheduled-payments"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ob-paymentinitiation-v3-1--postdomestic-standing-order-consents",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postdomestic-standing-order-consents\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/domestic-standing-order-consents",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "domestic-standing-order-consents"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ob-paymentinitiation-v3-1--postdomestic-standing-orders",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postdomestic-standing-orders\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/domestic-standing-orders",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "domestic-standing-orders"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ob-paymentinitiation-v3-1--postfile-payment-consents",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postfile-payment-consents\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/file-payment-consents",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "file-payment-consents"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ob-paymentinitiation-v3-1--postfile-payments",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postfile-payments\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/file-payments",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "file-payments"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ob-paymentinitiation-v3-1--postinternational-payment-consents",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postinternational-payment-consents\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/international-payment-consents",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "international-payment-consents"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ob-paymentinitiation-v3-1--postinternational-payments",
+      "request": {
+        "method": "POST",
+        "description": "ob-paymentinitiation-v3-1--postinternational-payments\n\nResponses:\n- default: Runtime response semantics are not observable from Kong configuration.",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/open-banking/v3.1/pisp/international-payments",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "open-banking",
+            "v3.1",
+            "pisp",
+            "international-payments"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
