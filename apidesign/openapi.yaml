@@ -1,0 +1,183 @@
+openapi: 3.0.3
+info:
+  title: ob-paymentinitiation-v3-1
+  version: 1.0.0
+  description: Operational baseline generated from observed Kong Konnect configuration.
+servers:
+- url: https://ob-pisp.svc.prod.aldermoor.example/obie/v3.1/pisp
+paths:
+  /open-banking/v3.1/pisp/domestic-payment-consents:
+    post:
+      operationId: postOpenBankingV31PispDomesticPaymentConsents_e046ca1a
+      summary: ob-paymentinitiation-v3-1--postdomestic-payment-consents
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - f0ff8dce-d504-4eb6-aaa5-50aa537e16ec
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+  /open-banking/v3.1/pisp/domestic-payments:
+    post:
+      operationId: postOpenBankingV31PispDomesticPayments_1d5056d2
+      summary: ob-paymentinitiation-v3-1--postdomestic-payments
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 38ba64f2-e2df-48c8-b759-f774af66c785
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+  /open-banking/v3.1/pisp/domestic-scheduled-payment-consents:
+    post:
+      operationId: postOpenBankingV31PispDomesticScheduledPaymentConsents_2f91d80a
+      summary: ob-paymentinitiation-v3-1--postdomestic-scheduled-payment-consents
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - bc068a73-4f6b-4531-9e23-6b5e5a19282e
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+  /open-banking/v3.1/pisp/domestic-scheduled-payments:
+    post:
+      operationId: postOpenBankingV31PispDomesticScheduledPayments_6de55a4b
+      summary: ob-paymentinitiation-v3-1--postdomestic-scheduled-payments
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 8a9d6b67-6365-4a32-8b1d-6e0e20475537
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+  /open-banking/v3.1/pisp/domestic-standing-order-consents:
+    post:
+      operationId: postOpenBankingV31PispDomesticStandingOrderConsents_5044b9da
+      summary: ob-paymentinitiation-v3-1--postdomestic-standing-order-consents
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - bb8434ed-51fe-43ab-b9f3-652106c39f7e
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+  /open-banking/v3.1/pisp/domestic-standing-orders:
+    post:
+      operationId: postOpenBankingV31PispDomesticStandingOrders_9d164e33
+      summary: ob-paymentinitiation-v3-1--postdomestic-standing-orders
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 595d313b-a9f7-4398-809e-13b8b301617b
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+  /open-banking/v3.1/pisp/file-payment-consents:
+    post:
+      operationId: postOpenBankingV31PispFilePaymentConsents_493f8acd
+      summary: ob-paymentinitiation-v3-1--postfile-payment-consents
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 60b6331f-1e24-4160-8c70-742e958d408f
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+  /open-banking/v3.1/pisp/file-payments:
+    post:
+      operationId: postOpenBankingV31PispFilePayments_33fe8fe1
+      summary: ob-paymentinitiation-v3-1--postfile-payments
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - 5ab36bdc-89ed-4717-afd8-3c91691a9ea4
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+  /open-banking/v3.1/pisp/international-payment-consents:
+    post:
+      operationId: postOpenBankingV31PispInternationalPaymentConsents_ec73563b
+      summary: ob-paymentinitiation-v3-1--postinternational-payment-consents
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - b4316c5b-18e1-4b40-8f91-5b209b4b6497
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+  /open-banking/v3.1/pisp/international-payments:
+    post:
+      operationId: postOpenBankingV31PispInternationalPayments_026b42dd
+      summary: ob-paymentinitiation-v3-1--postinternational-payments
+      description: Inferred from Kong routing. Request and response business schemas are not observable.
+      x-kong-route-ids:
+      - e2f93c13-def9-4b51-aaa3-f635dadb4dcf
+      x-kong-plugin-summary:
+      - acl
+      - jwt
+      - rate-limiting
+      - request-transformer
+      responses:
+        default:
+          description: Runtime response semantics are not observable from Kong configuration.
+x-kong-source:
+  serviceId: 213f7e10-16b1-4f70-8986-e4d2f1dbd408
+  snapshotFingerprint: 07cea5136085320a7d1a760a482942009d20bec1206588859bbf39aee15301c0
+  controlPlaneId: edb363b5-777a-445c-a190-5ca0d53c0c12
+x-kong-unmapped-routes:
+- routeId: 0114fd95-43d3-49b6-9f5c-fa84143dcc03
+  routeName: ob-paymentinitiation-v3-1--getdomestic-payments-domesticpaymentid
+  reasons:
+  - REGEX_OR_UNSUPPORTED_PATH
+- routeId: 67dcde3c-f95c-4388-83b5-dd7dd2d62999
+  routeName: ob-paymentinitiation-v3-1--postfile-payment-consents-consentid-file
+  reasons:
+  - REGEX_OR_UNSUPPORTED_PATH
+- routeId: 7b5df063-841d-4936-b928-52f9fcda0040
+  routeName: ob-paymentinitiation-v3-1--getdomestic-payment-consents-consentid-funds-confirmation
+  reasons:
+  - REGEX_OR_UNSUPPORTED_PATH
+- routeId: 86ae138a-e8ba-414a-951d-dad774eb8a21
+  routeName: ob-paymentinitiation-v3-1--getdomestic-payment-consents-consentid
+  reasons:
+  - REGEX_OR_UNSUPPORTED_PATH
+- routeId: 9a124288-b64a-48b7-a4b7-30aaeeddd984
+  routeName: ob-paymentinitiation-v3-1--getdomestic-payments-domesticpaymentid-payment-details
+  reasons:
+  - REGEX_OR_UNSUPPORTED_PATH
